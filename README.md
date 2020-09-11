@@ -42,6 +42,6 @@ Type: `Object`
 Type: `number`
 Default: `3`
 
-Select an optimization level between `1` and `9`.
+Select an optimization level `[0-9]`.
 
-> The optimization level determines how much optimization is done; higher levels take longer, but may have better results.
+> web lossless | compression level
