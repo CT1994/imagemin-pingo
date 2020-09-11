@@ -1,0 +1,24 @@
+{
+  "name": "imagemin-pingo",
+  "version": "1.0.0",
+  "description": "pingo fast web image optimizer by Cédric Louvrier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CT1994/imagemin-pingo.git"
+  },
+  "author": "Constantinos Tsiakouris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CT1994/imagemin-pingo/issues"
+  },
+  "homepage": "https://github.com/CT1994/imagemin-pingo#readme",
+  "dependencies": {
+    "tempy": "^0.6.0",
+    "imagemin-pingo": "^1.0.0",
+    "exec-buffer": "^3.2.0"
+  }
+}
