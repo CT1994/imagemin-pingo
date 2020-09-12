@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/CT1994/imagemin-pingo#readme",
   "dependencies": {
-    "tempy": "^0.6.0",
-    "imagemin-pingo": "^1.0.0",
-    "exec-buffer": "^3.2.0"
+    "exec-buffer": "^3.2.0",
+    "pingo-bin": "^1.0.1",
+    "tempy": "^0.6.0"
   }
 }
