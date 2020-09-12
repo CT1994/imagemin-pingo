@@ -10,14 +10,14 @@ module.exports = ({
 		return Promise.reject(new TypeError('Expected a buffer'));
 	}
 
-	if (optimizationLevel <= 0 || optimizationLevel >= 9) {
+	if (optimizationLevel < 0 || optimizationLevel > 9) {
 		return Promise.reject(new TypeError('optimization level must be 0 to 9'));
 	}
 
 	const tempFilePath = tempy.file({extension: 'png'});
 
 	const args = [
-		`-${optimizationLevel}`,
+		`-s${optimizationLevel}`,
 	];
 
 	args.push(tempFilePath);
